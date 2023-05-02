@@ -34,8 +34,8 @@ public class Creat implements CommandLineRunner {
         roleService.addRole(ROLE_ADMIN);
 
         User admin = new User();
-        admin.setName("Владимир");
-        admin.setLastName("Ульянов");
+        admin.setName("Иван");
+        admin.setLastName("Иванов");
 
         admin.setUsername("admin"); // <----------------------
         admin.setUserpassword("1234");
@@ -44,8 +44,8 @@ public class Creat implements CommandLineRunner {
         userService.addUser(admin);
 
         User user = new User();
-        user.setName("User");
-        user.setLastName("User");
+        user.setName("Петр");
+        user.setLastName("Петров");
 
         user.setUsername("user"); // <----------------------
         user.setUserpassword("1234");

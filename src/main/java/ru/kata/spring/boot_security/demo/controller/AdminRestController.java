@@ -34,6 +34,7 @@ public class AdminRestController {
         this.roleService = roleService;
     }
 
+
     @PostMapping
     public ResponseEntity<Void> addUser(@RequestBody User user) {
         userService.addUser(user);
